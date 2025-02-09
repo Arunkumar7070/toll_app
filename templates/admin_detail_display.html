@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>admin</title>
+</head>
+<body>
+    <table>
+        <th>
+            <td>car no</td>
+            <td>amount</td>
+            <td>date</td>
+        </th>
+        {% for i in data %}
+        <tr>
+            
+            <td>{{i[1]}}</td>
+            <td>{{i[2]}}</td>
+            <td>{{i[3]}}</td>
+            <br>
+        </tr>
+        {% endfor %}
+            
+    </table>
+    <h1 style="align-items: center;"><a href="/">home</a"></h1>
+</body>
+</html>
